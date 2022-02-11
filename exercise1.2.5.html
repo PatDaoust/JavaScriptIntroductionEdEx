@@ -8,12 +8,21 @@
       var title = document.querySelector("#mainTitle");
       title.innerHTML += "<br>This new <u>title</u> has been changed with JavaScript!";
     }
+
   </script>
+  <script>
+      function aquaBackground() {
+        document.body.style.backgroundColor = "aqua";
+    }
+  </script>
+      
 </head>
   <body>
     <h1 id="mainTitle">This is a title</h1> 
 
     <p>This is my attempt at experimenting with the interactivity between JavaScript and HTML content of a document.</p>
     <button onclick="changeTitle();">Click me to change the title of the page</button>
+    <p> </p>
+    <button onclick="aquaBackground();">Click me to change the background of the page</button>
   </body>
 </html>
