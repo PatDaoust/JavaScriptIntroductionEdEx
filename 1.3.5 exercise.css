@@ -1,0 +1,16 @@
+table {
+  margin-top: 20px;
+}
+
+tr {
+  text-align: center;
+}
+tr:hover {background-color: aqua;}
+table, tr, td {
+  border: 2px solid;
+} 
+
+td {
+  padding:10px;
+  text-align: left;
+}
