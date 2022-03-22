@@ -51,10 +51,22 @@ let myPicturesArray = [
      });
 /*
      to do:
-Improve the display, by adding margins (CSS), shadows, border, and changing the URLs for real pictures. Remember that you need to have a smaller versions of the pictures, i.e., thumbnails. You can use existing images (images.google.com is your friend) or images you upload somewhere.
-Use JavaScript for adding a click event listener on each image, then when clicked, you will show a bigger version of each picture. For the moment, just change the value of the src attribute of the clicked image (set it to the URL of the full size image from the array).
-Try to make something nicer: reserve a <div> on the right of the document so to display the clicked image with a bigger size. In that case, you will need to create an image (only once, after the first click), to set it to the size of the div (use the width and height attributes of the img element), and to append it to the div.
-Try to add more images, and find a way to display them per album. Create buttons entitled "album1", "album2", etc., and when clicked, you will only display images from the selected album.
-[Advanced] Add an option for deleting a picture. It should be removed from the document and from the array too...
+Improve the display, by adding margins (CSS), shadows, border, and changing the URLs for real pictures.
+Remember that you need to have a smaller versions of the pictures, i.e., thumbnails.
+You can use existing images (images.google.com is your friend) or images you upload somewhere.
+Use JavaScript for adding a click event listener on each image, then when clicked, you will show a bigger version of each picture.
+For the moment, just change the value of the src attribute of the clicked image
+(set it to the URL of the full size image from the array).
+
+Try to make something nicer:
+reserve a <div> on the right of the document so to display the clicked image with a bigger size.
+In that case, you will need to create an image (only once, after the first click),
+to set it to the size of the div (use the width and height attributes of the img element), and to append it to the div.
+Try to add more images, and find a way to display them per album.
+Create buttons entitled "album1", "album2", etc., and when clicked,
+you will only display images from the selected album.
+
+[Advanced] Add an option for deleting a picture.
+It should be removed from the document and from the array too
 Feel free to add any interesting feature you think about ;-)
 */
