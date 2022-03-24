@@ -43,18 +43,28 @@ let myPicturesArray = [
     }
     ];
 
-    myPicturesArray.forEach(function(currentImage) {
-        let image = document.createElement("img");
-        image.src = currentImage.thumbnailUrl;
-        image.alt = currentImage.title;
-        document.body.append(image);
-     });
+myPicturesArray.forEach(function(currentImage) {
+    let image = document.createElement("img");
+    image.src = currentImage.thumbnailUrl;
+    image.alt = currentImage.title;
+    document.body.append(image);
+ });
+
 /*
      to do:
-Improve the display, by adding margins (CSS), shadows, border, and changing the URLs for real pictures.
+    basic display of existing array content
+
+make CSS file
+Improve the display, by adding:
+     margins (CSS),
+     shadows,
+     border,
+     and changing the URLs for real pictures.
 Remember that you need to have a smaller versions of the pictures, i.e., thumbnails.
 You can use existing images (images.google.com is your friend) or images you upload somewhere.
-Use JavaScript for adding a click event listener on each image, then when clicked, you will show a bigger version of each picture.
+
+Use JavaScript for adding a click event listener on each image, 
+when clicked, show a bigger version of each picture.
 For the moment, just change the value of the src attribute of the clicked image
 (set it to the URL of the full size image from the array).
 
